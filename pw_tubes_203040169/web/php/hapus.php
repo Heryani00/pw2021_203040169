@@ -1,12 +1,9 @@
-<?php 
-/*
-Heryani
-203040169
-Jum'at 13.00
-*/
-?>
-
 <?php
+// Heryani
+// 203040169
+// Jum'at 13.00
+
+
 session_start();
 
 if (!isset($_SESSION["username"])) {
@@ -18,14 +15,13 @@ require 'functions.php';
 $id = $_GET['id'];
 
 if (hapus($id) > 0) {
-    echo "<script>
+  echo "<script>
             alert('Data Berhasil dihapus');
             document.location.href = 'admin.php';
         </script>";
 } else {
-    echo "<script>
+  echo "<script>
             alert('Data Gagal dihapus');
             document.location.href = 'admin.php';
         </script>";
 }
-?>

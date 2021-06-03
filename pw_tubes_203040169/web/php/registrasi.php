@@ -1,12 +1,9 @@
 <?php
-/*
-Heryani
-203040169
-Jum'at 13.00
-*/
-?>
+// Heryani
+// 203040169
+// Jum'at 13.00
 
-<?php
+
 require 'functions.php';
 
 if (isset($_POST["register"])) {

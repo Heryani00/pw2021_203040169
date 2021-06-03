@@ -1,12 +1,8 @@
 <?php
-/*
-Heryani
-203040169
-Jum'at 13.00
-*/
-?>
+// Heryani
+// 203040169
+// Jum'at 13.00
 
-<?php
 session_start();
 
 if (!isset($_SESSION["username"])) {

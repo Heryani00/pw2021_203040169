@@ -1,12 +1,8 @@
 <?php
-/*
-Heryani
-203040169
-Jum'at 13.00
-*/
-?>
+// Heryani
+// 203040169
+// Jum'at 13.00
 
-<?php
 
 // menghubungkan dengan file php lainnya
 require 'php/functions.php';
